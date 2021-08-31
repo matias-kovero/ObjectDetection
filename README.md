@@ -86,15 +86,15 @@ git clone https://github.com/matias-kovero/ObjectDetection.git
 If you are looking for an out of the box working solution - this is not your repo. I have stripped the smooth aim - as I see it would create harm to Splitgates community. Currently the code has an really simple aim movement - that more likely will get you flagged - but still proves my point that you can _"hack"_ with this.  
 
 ### `main.py`
-Main entrypoint - params found [here](link_to_params). Example usage:
+Main entrypoint - params found [here](https://github.com/matias-kovero/ObjectDetection/blob/0536b2752cedff554ddae14a8af8cedbb72e2559/main.py#L70). Example usage:
 ```sh
-python .\main.py --source 480 --debug true
+python .\main.py --source 480
 ```
 You can change `--source` and `--img` for better performance (smaller img = faster inference, but accuracy suffers).  
 If you have an beefy GPU and want better accuracy, try to set --img to 640 and what ever source.
 ### `gather.py`
 When you want to create your own datasets, run this to collect images.
-Check source for additional info, but defaulted to take screenshots when user shoots - and cooldown of 10 seconds.
+Check source for additional info, but defaulted to take screenshots (640px) when user shoots - and cooldown of 10 seconds.
 ```sh
 python .\gather.py
 ```
