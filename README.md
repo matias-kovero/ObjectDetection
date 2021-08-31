@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="">
-    <img src="https://avatars.githubusercontent.com/u/47692525" alt="Logo" width="80" height="80" style="border-radius: 50%;">
+    <img src="https://avatars.githubusercontent.com/u/47692525" alt="Logo" width="90" height="90" style="border-radius: 50%;">
   </a>
   <h3 align="center">Object Detection for FPS games</h3>
   <p align="center">
@@ -36,7 +36,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[<p align="center"><img width="200" src="./docs/debug.png"></p>](./docs/debug.png)
+[<p align="center"><img width="300" src="./docs/debug.png"></p>](./docs/debug.png)
 
 This project started as an experiment as  
 > _is it possible to "cheat" in FPS games using object detection_.
